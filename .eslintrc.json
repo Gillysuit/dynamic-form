@@ -5,11 +5,7 @@
     "es6": true,
     "node": true
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:prettier/recommended",
-    "prettier"   
-  ],
+  "extends": ["eslint:recommended", "prettier"],
   "plugins": ["prettier"],
   "parserOptions": {
     "ecmaVersion": 6,
@@ -29,6 +25,6 @@
     "semi": "error",
     "no-unused-vars": 1,
     "prefer-const": ["error", { "destructuring": "all" }],
-    "prettier/prettier": "error"
+    "prettier/prettier": 0
   }
 }

@@ -1,4 +1,4 @@
-import DynamicForm from "./components/dynamic-form.jsx";
+import DynamicForm from './components/dynamic-form.jsx';
 import './App.css';
 
 function App() {
