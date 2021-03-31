@@ -72,7 +72,7 @@ const DynamicForm = (props) => {
     event.preventDefault();
 
     const jsonForm = JSON.stringify(formState);
-    console.log(jsonForm);
+    window.alert(jsonForm);
   };
 
   return (
